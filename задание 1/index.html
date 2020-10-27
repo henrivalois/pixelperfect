@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+	
+
+<style>	
+	@font-face {
+
+font-family:"HelveticaNeueCyr;" /* Имя шрифта */
+
+src: url("fonts/HelveticaNeueCyr-Medium.otf"); /* Путь к файлу со шрифтом */
+
+font-family: "Helvetica;" /* Имя шрифта */
+
+src: url("fonts/Helvetica Condensed.ttf")
+
+
+}
+
+	.container {
+		  max-width: none !important;
+		  width:1920px;
+
+		}
+
+		body, html
+
+		{
+			min-width: 1920px;
+			font-size: 16px;
+			background-image: url(images/fon.png);
+			font-family: 'HelveticaNeueCyr';
+			
+		}
+
+		header {
+			background-color: #040440;
+
+		}
+
+		footer {
+			background-color: #040440;
+			min-height:115px;
+
+		}
+
+		.position_first_container_and_header {
+			min-height:88px;
+
+		}
+
+		.textmenu {
+		
+			font-size:24px;
+			margin-right:87px;
+			font-weight:500;
+
+		}
+		.textmenu1 {
+			margin-left:-10px;
+		}
+
+
+	
+		.textlogo {
+			font-size:18px;
+			font-weight:400;
+			padding-left:87px;
+			padding-top:21px;
+			line-height:1.2;
+			font-family:'Arial';
+
+		}
+
+		.position_top {
+			padding-top:5px;
+		}
+		
+		.button_style {
+			background-color:#c93555;
+			border-radius:40px;
+			text-align:center;
+			font-family: 'HelveticaNeueCyr';
+
+		}
+
+		.button_main {
+			
+			height:74px;
+			width:259px;
+			margin-left:26px;
+			font-size:24px;
+			font-weight:500;
+			border:none;
+
+		}
+
+		.button_big {
+		
+			height:155px;
+			width:540px;
+			font-size:28px;
+			font-weight:600;
+			margin-left:24px;
+			margin-top:352px;
+			float:bottom;
+		}
+
+		.buttontext {
+
+			margin-left:10px;
+			margin-bottom:7px;
+		}
+
+		.nameOfCourse {
+	
+			margin-top:155px;
+			margin-left:340px;
+		}
+
+		h1{
+			font-size:48px;
+			font-weight:700;
+			letter-spacing: 3px;
+		}
+
+		h6 {
+			font-size:24px;
+
+		}
+
+		.specialist {
+			margin-top:47px;
+
+		}
+
+		.button2_position {
+			margin-left:310px;
+			margin-top:85px;
+			width:235px;
+			
+
+
+		}
+
+		.button2_text {
+			margin-bottom: 10px;
+			margin-right:2px;
+
+		}
+		.profession {
+			color:#c93555;
+			font-size:24px;
+			margin-top:5px;
+			padding-top:2px;
+		}
+
+		#rectangle {
+			width:121px;
+			height:8px;
+			background-color:#c93555;
+		}
+
+		.rectangle2_3_and_4_style {
+			width:8px;
+			height:65px;
+			background-color:#c93555;
+		}
+
+		#rectangle2 {
+			
+			margin-top:65px;
+			margin-left:141px;
+		}
+
+		#rectangle3
+
+		{
+			margin-top:42px;
+			margin-left:336px;
+		}
+
+
+		#rectangle4
+
+		{
+			margin-top:355px;
+			margin-left:337px;
+		}
+		 
+		 .system_admin {
+		 	margin-top:45px;	
+		 }
+
+		 .stoimost {
+		 	margin-right:145px;
+		 }
+
+		 .prodoljitelnost {
+		 	margin-right:85px;
+		 }
+
+		 .color_white {
+		 	color:#ffff;
+		 }
+
+
+		 .uslovia {
+		 	margin-top:53px;
+		 }
+
+		 .uslovia_position_left {
+		 	margin-left:340px;	
+		 }
+
+		  .stoimost2 {
+		 	margin-right:85px;
+		 }
+
+		 .prodoljitelnost2 {
+		 	margin-right:158px;
+		 }
+
+		 .second_section {
+		 	background-color: #040440;
+		 	height:685px;
+		 	margin-top:153px;
+		 }
+
+		 .third_section {
+		 	background-color: #130b5b;
+		 	height:825px;
+		 }
+
+		 .image_position {
+		 	margin-left:380px;
+		 	margin-top:105px;
+		 }
+
+		 .osnovnoy_text {
+		 	font-size:28px
+		 }
+
+		 .zagolovok2 {
+		 	margin-left:160px;
+		 	margin-top:67px;
+		 }
+
+		 .zagolovok3 {
+		
+		 	margin-left:350px;
+		 	margin-top:42px;
+
+		 }
+
+		  .zagolovok4 {
+		 	margin-left:348px;
+		 	margin-top:367px;
+
+		 }
+
+		 .position_osn_text {
+		 	
+		 	margin-left:160px;
+		 	margin-top:149px;
+		   line-height: 1.3;
+		 }
+
+
+		  .position_osn_text2 {
+		 
+		 	margin-left:343px;
+		 	margin-top:124px;
+		    line-height: 1.3;
+		 }
+
+           .position_osn_text3 {
+		 	
+		 	margin-left:340px;
+		 	margin-top:425px;
+		    line-height: 1.3;
+		 }
+
+		 .navigation1 {
+		 	margin-left:344px;
+		 	margin-top:61px;
+		 }
+
+		 .spisok_ul {
+		 	font-size:24px;
+		 	margin-left:460px;
+		 	margin-top:43px;
+		 	line-height:0,5;
+		 }
+
+		 ul > li {
+		 	display:inline-block;
+		 	margin-left:115px;
+		 	color:#fff;
+		 }
+
+		 .basseinaya {
+		 	margin-top:70px;
+		 	margin-left:620px;
+		 }
+
+		 .absolute_position {
+		 	position:absolute;
+		 }
+
+
+</style>
+
+</head>
+<body>
+
+	<header class="position_first_container_and_header ">
+		<div class="container position_first_container_and_header ">
+			<div class="row">
+				<div class="col-6">
+	  				<div class="textlogo color_white"><a class="grey color_white"  href="#">КУРСЫ ПРОФЕССИОНАЛЬНОЙ<br>ПЕРЕПОДГОТОВКИ</a></div>
+	  			</div>
+	  			<div class="col-6 ">
+	  				<div class="position_top">
+					<nav>
+						<span class="textmenu textmenu1 color_white">О НАС</span>
+						<span class="textmenu color_white">О КУРСЕ</span>
+						<span class="textmenu color_white">КОНТАКТЫ</span>
+						<span><button type="button" class="btn btn-primary btn button_main button_style "><div class="buttontext">ЗАПИСАТЬСЯ</div></button></span>
+					</nav>
+				</div>
+
+
+				</div>
+				
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="first">
+			<div class="container">
+				<div class="row">
+				<div class="col-sm-10 pt-4 text-left" >
+					<div class="nameOfCourseBackground">
+						<div class="nameOfCourse color_white">
+							<div id="rectangle"></div>
+							<p class="profession">Профессия</p>
+							<h1 class="system_admin">СИСТЕМНЫЙ<br> АДМИНИСТРАТОР</h1></div>	
+
+							<div class="specialist nameOfCourse"><h6 class="color_white">Незаменимый специалист в любой компании</h6>
+							</div>
+							<div class="button2_position"><button style="height:72px;" type="button" class="btn btn-primary btn button_main button_style"><p class="button2_text">Записаться</p></button></div>
+							<div>
+								<div class="uslovia uslovia_position_left"><span class="stoimost color_white">СТОИМОСТЬ</span><span class="prodoljitelnost color_white">ПРОДОЛЖИТЕЛЬНОСТЬ</span><span class=" color_white">ФОРМАТ ОБУЧЕНИЯ</span></div>
+
+								<div class="uslovia_position_left"><span class="stoimost2 color_white"><b style="font-size:24px">ОТ 2700р/мес</b></span><span class="prodoljitelnost2 color_white"><b style="font-size:24px">3 месяца</b></span><span class="color_white"><b style="font-size:24px">Очная</b></span></div>
+
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+		<section class="second_section">
+			<div class="container">
+				<div class="row">
+				<div class="col-5">
+					<div class="image_position absolute_position"><img src="images/img1.png"></div>
+				</div>
+				<div class="col-7">
+					<div  class="color_white osnovnoy_text">
+						<div style="display: inline-block;">
+							<div style="display: inline-block;" id="rectangle2" class="rectangle2_3_and_4_style absolute_position"></div>
+							<div class ="zagolovok2 absolute_position" style="display: inline-block;">
+								<h2>Кто такой системный администратор</h2>
+							</div>
+						</div>
+					<div class="position_osn_text absolute_position"><p>Системный администратор обеспечивает бесперебойное
+					функционирование компьютерной техники и программного<br> обеспечения
+				в организации. Он занимается поддержкой<br> серверов, проектирует и 
+			администрирует локальную сеть,<br> выдает пользователям доступ к сайтам.</p>
+
+			<p style="margin-top:40px">Сисадмин &mdash; штатный или на аутсорсе &mdash; нужен каждой<br> компании, где есть хотя бы
+			один компьютер, поэтому<br> представители этой профессии не испытывают проблем 
+		с трудоустройством.</p></div></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<section class="third_section">
+			<div class="container">
+				<div class="row">
+				<div class="col-12">
+
+					<div  class="color_white osnovnoy_text">
+						<div style="display: inline-block;">
+							<div style="display: inline-block;" id="rectangle3" class="rectangle2_3_and_4_style absolute_position"></div>
+							<div class ="zagolovok3 absolute_position" style="display: inline-block;">
+								<h2>О курсе</h2>
+							</div>
+						</div>
+					<div class="position_osn_text2 absolute_position"><p>
+					Курс предназначен для широкого круга слушателей, желающих познакомиться с<br>
+					локальными сетями, понять принципы, по которым они работают, получить знания и <br> навыки по их построению. Слушатели так же познакомятся с основополагающими<br>
+					принципами работы ОС Windows в локальной сети. Курс является базовым в обучении<br>
+					технических специалистов и предполагает обучение фундаментальным принципам <br>
+				построения локальных сетей.</p>
+
+
+			
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+	              <div class="container">
+				<div class="row">
+				<div class="col-12">
+					<div  class="color_white osnovnoy_text">
+						<div style="display: inline-block;">
+							<div style="display: inline-block;" id="rectangle4" class="rectangle2_3_and_4_style absolute_position"></div>
+							<div class ="zagolovok4 absolute_position" style="display: inline-block;">
+								<h2>Выдаваемый документ</h2>
+							</div>
+						</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+				
+				 <div class="container">
+				<div class="row">
+				<div class="col-6">
+					<div  class="color_white osnovnoy_text">
+					<div style="display: inline-block;" class="position_osn_text3 absolute_position color_white">
+					<p>Диплом и профессиональной переподготовке <br>
+				с присвоением квалификации</p>
+			</div>
+			</div>
+			</div>
+			
+                <div class="col-6">
+				<button type="button" class="btn btn-primary btn button_big button_style"><div class="buttontext">САЙТ ОБРАЗОВАТЕЛЬНОГО ЦЕНТРА</div></button>
+		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+  	
+
+
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="navigation" >
+						<div class="navigation1 absolute_position" >
+	  				<nav >
+						
+						<span class="mr-3"><img src="images\fb.jpg"href=""></span>
+						<span class="mr-3 "><img src="images\vk.jpg"  href=""></span>
+						<span class="mr-3 "><img src="images\play.jpg"  href=""></span>
+						
+					</nav>
+				</div>
+				<div >
+					<ul class="spisok_ul absolute_position">
+						<li style="width:300px">098773 Санкт Петербург,</li>
+						<li style="margin-left:60px;">sys-adm@gmail.com</li>
+						<li style="margin-left:190px;">8-800-321-43-23</li>
+					</ul>
+					<span class="spisok_ul color_white basseinaya absolute_position">ул. Бассейная, д 23</span>
+				</div>
+						
+					</div>
+	  			
+
+
+	  				
+
+	  				
+
+	 </div>
+	</div>
+</div>
+	</footer>
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	</body>
+	</html>
